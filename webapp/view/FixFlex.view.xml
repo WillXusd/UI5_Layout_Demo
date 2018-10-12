@@ -1,0 +1,15 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="UI5_Layout_Demo.controller.FixFlex"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout">
+		<Page title="{i18n>title}" class="sapUiContentPadding nestedFlexboxes">
+			<content>
+				<l:FixFlex class="fixFlexVertical" vertical="true" fixContentSize="20%">
+					<l:fixContent>
+						<Image src="images/delaware.jpg" densityAware="false" height="100px"/>
+					</l:fixContent>
+					<l:flexContent>
+						<Text class="column1" text="This container is flexible and it will adapts its size to fill the remaining size in the FixFlex contolThis container is flexible and it will adapts its size to fill the remaining size in the FixFlex contoThis container is flexible and it will adapts its size to fill the remaining size in the FixFlex contoThis container is flexible and it will adapts its size to fill the remaining size in the FixFlex contoThis container is flexible and it will adapts its size to fill the remaining size in the FixFlex contoThis container is flexible and it will adapts its size to fill the remaining size in the FixFlex conto"></Text>
+					</l:flexContent>
+				</l:FixFlex>
+			</content>
+		</Page>
+</mvc:View>

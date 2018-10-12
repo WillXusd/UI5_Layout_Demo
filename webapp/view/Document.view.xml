@@ -1,0 +1,20 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="UI5_Layout_Demo.controller.Document"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<ScrollContainer
+		height="100%"
+		width="100%"
+		horizontal="true"
+		vertical="true">
+		<FlexBox direction="Column" renderType="Div" class="sapUiSmallMargin">
+			<FlexBox>
+				<Button text="Correctly Displayed" press="onCorrectPathClick"/>
+				<Button text="Loading Error" press="onIncorrectPathClick"/>
+			</FlexBox>
+			<PDFViewer source="source/1539332171523.pdf" title="Title" height="600px">
+				<layoutData>
+					<FlexItemData growFactor="2" />
+				</layoutData>
+			</PDFViewer>
+		</FlexBox>
+	</ScrollContainer>
+</mvc:View>

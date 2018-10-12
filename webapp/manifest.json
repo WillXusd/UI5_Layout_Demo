@@ -1,0 +1,136 @@
+{
+	"_version": "1.7.0",
+	"sap.app": {
+		"id": "UI5_Layout_Demo",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		}
+	},
+
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+
+		]
+	},
+
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "UI5_Layout_Demo.view.App",
+			"type": "XML"
+		},
+			"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "UI5_Layout_Demo.view",
+				"controlId": "myApp",
+				"controlAggregation": "pages",
+				"transition": "slide"
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "index",
+				"target": "index"
+			}, {
+				"pattern": "FixFlex",
+				"name": "FixFlex",
+				"target": "FixFlex"
+			}, {
+				"pattern": "FlexBox",
+				"name": "FlexBox",
+				"target": "FlexBox"
+			}, {
+				"pattern": "Grid",
+				"name": "Grid",
+				"target": "Grid"
+			}, {
+				"pattern": "SimpleForm",
+				"name": "SimpleForm",
+				"target": "SimpleForm"
+			}, {
+				"pattern": "Document",
+				"name": "Document",
+				"target": "Document"
+			}],
+			"targets": {
+				"index": {
+					"viewName": "index",
+					"viewLevel": 1
+				},
+				"FixFlex": {
+					"viewName": "FixFlex",
+					"viewLevel": 2
+				},
+				"FlexBox": {
+					"viewName": "FlexBox",
+					"viewLevel": 3
+				},
+				"Grid": { 
+					"viewName": "Grid",
+					"viewLevel": 4
+				},
+				"SimpleForm": {
+					"viewName": "SimpleForm",
+					"viewLevel": 5
+				},
+				"Document": {
+					"viewName": "Document",
+					"viewLevel": 6
+				}
+			}
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.ushell": {},
+				"sap.collaboration": {},
+				"sap.ui.comp": {},
+				"sap.uxap": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "UI5_Layout_Demo.i18n.i18n"
+				}
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		}
+	}
+}
