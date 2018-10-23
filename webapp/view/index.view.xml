@@ -42,16 +42,7 @@
 							</TileContent>
 						</tileContent>
 					</GenericTile>
-						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Document"
-						subheader="" press="navToDoc">
-						<tileContent>
-							<TileContent footer="">
-								<content>
-									<ImageContent src="sap-icon://pdf-attachment"/>
-								</content>
-							</TileContent>
-						</tileContent>
-					</GenericTile>
+					
 				</content>
 			</Page>
 </mvc:View>

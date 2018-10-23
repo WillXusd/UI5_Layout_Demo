@@ -5,114 +5,114 @@
 					
 					<!--justifyContent:Start Center End SpaceAround SpaceBetween	-->
 					
-					<!--	<Panel>-->
-					<!--	<headerToolbar>-->
-					<!--		<Toolbar>-->
-					<!--			<Title level="H2" text="Upper left" />-->
-					<!--		</Toolbar>-->
-					<!--	</headerToolbar>-->
-					<!--	<FlexBox-->
-					<!--		height="100px"-->
-					<!--		alignItems="Start"-->
-					<!--		justifyContent="Start">-->
-					<!--		<items>-->
-					<!--			<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />-->
-					<!--			<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />-->
-					<!--			<Button text="3" type="Accept" />-->
-					<!--		</items>-->
-					<!--	</FlexBox>-->
-					<!--	</Panel>-->
+						<Panel>
+						<headerToolbar>
+							<Toolbar>
+								<Title level="H2" text="justifyContent" />
+							</Toolbar>
+						</headerToolbar>
+						<FlexBox
+							height="100px"
+							alignItems="Start"
+							justifyContent="SpaceAround">
+							<items>
+								<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+								<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+								<Button text="3" type="Accept" />
+							</items>
+						</FlexBox>
+						</Panel>
 					
 					<!--alignItems:Start Center End 	-->
 					
-					<!--<Panel>-->
-					<!--	<headerToolbar>-->
-					<!--		<Toolbar>-->
-					<!--			<Title level="H2" text="Start" />-->
-					<!--		</Toolbar>-->
-					<!--	</headerToolbar>-->
-					<!--	<FlexBox-->
-					<!--		height="100px"-->
-					<!--		alignItems="Start"-->
-					<!--		justifyContent="Center">-->
-					<!--		<items>-->
-					<!--			<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />-->
-					<!--			<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />-->
-					<!--			<Button text="3" type="Accept" />-->
-					<!--		</items>-->
-					<!--	</FlexBox>-->
-					<!--</Panel>-->
+					<Panel>
+						<headerToolbar>
+							<Toolbar>
+								<Title level="H2" text="Start" />
+							</Toolbar>
+						</headerToolbar>
+						<FlexBox
+							height="100px"
+							alignItems="Center"
+							justifyContent="Center">
+							<items>
+								<Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+								<Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+								<Button text="3" type="Accept" />
+							</items>
+						</FlexBox>
+					</Panel>
 					
 					<!--direction:RowReverse Column	ColumnReverse-->
 					
-					<!--<Panel>-->
-					<!--	<headerToolbar>-->
-					<!--		<Toolbar>-->
-					<!--			<Title level="H2" text="Reverse, horizontal"/>-->
-					<!--		</Toolbar>-->
-					<!--	</headerToolbar>-->
-					<!--	<FlexBox direction="RowReverse" alignItems="Start">-->
-					<!--		<items>-->
-					<!--			<Button text="1" type="Emphasized"/>-->
-					<!--			<Button text="2" type="Reject"/>-->
-					<!--			<Button text="3" type="Accept"/>-->
-					<!--		</items>-->
-					<!--	</FlexBox>-->
-					<!--</Panel>-->
+					<Panel>
+						<headerToolbar>
+							<Toolbar>
+								<Title level="H2" text="Reverse, horizontal"/>
+							</Toolbar>
+						</headerToolbar>
+						<FlexBox direction="ColumnReverse" alignItems="Start">
+							<items>
+								<Button text="1" type="Emphasized"/>
+								<Button text="2" type="Reject"/>
+								<Button text="3" type="Accept"/>
+							</items>
+						</FlexBox>
+					</Panel>
 					
 					
 					
 					
-					<!--<Panel>-->
-					<!--	<HBox fitContainer="true" alignItems="Stretch">-->
-					<!--		<items>-->
-					<!--			<core:HTML content="&lt;h2&gt;1&lt;/h2&gt;">-->
-					<!--				<core:layoutData>-->
-					<!--					<FlexItemData growFactor="2" styleClass="item1"/>-->
-					<!--				</core:layoutData>-->
-					<!--			</core:HTML>-->
-					<!--			<core:HTML content="&lt;h2&gt;2&lt;/h2&gt;">-->
-					<!--				<core:layoutData>-->
-					<!--					<FlexItemData growFactor="3" styleClass="item2"/>-->
-					<!--				</core:layoutData>-->
-					<!--			</core:HTML>-->
-					<!--			<VBox fitContainer="true">-->
-					<!--				<layoutData>-->
-					<!--					<FlexItemData growFactor="7"/>-->
-					<!--				</layoutData>-->
-					<!--				<items>-->
-					<!--					<core:HTML content="&lt;h2&gt;3&lt;/h2&gt;">-->
-					<!--						<core:layoutData>-->
-					<!--							<FlexItemData growFactor="5" styleClass="item3"/>-->
-					<!--						</core:layoutData>-->
-					<!--					</core:HTML>-->
-					<!--					<HBox fitContainer="true" alignItems="Stretch">-->
-					<!--						<layoutData>-->
-					<!--							<FlexItemData growFactor="3"/>-->
-					<!--						</layoutData>-->
-					<!--						<items>-->
-					<!--							<core:HTML content="&lt;h2&gt;4&lt;/h2&gt;">-->
-					<!--								<core:layoutData>-->
-					<!--									<FlexItemData growFactor="1" styleClass="item4"/>-->
-					<!--								</core:layoutData>-->
-					<!--							</core:HTML>-->
-					<!--							<core:HTML content="&lt;h2&gt;5&lt;/h2&gt;">-->
-					<!--								<core:layoutData>-->
-					<!--									<FlexItemData growFactor="1" styleClass="item5"/>-->
-					<!--								</core:layoutData>-->
-					<!--							</core:HTML>-->
-					<!--						</items>-->
-					<!--					</HBox>-->
-					<!--				</items>-->
-					<!--			</VBox>-->
-					<!--			<core:HTML content="&lt;h2&gt;6&lt;/h2&gt;">-->
-					<!--				<core:layoutData>-->
-					<!--					<FlexItemData growFactor="5" styleClass="item6"/>-->
-					<!--				</core:layoutData>-->
-					<!--			</core:HTML>-->
-					<!--		</items>-->
-					<!--	</HBox>-->
-					<!--</Panel>-->
+					<Panel>
+						<HBox fitContainer="true" alignItems="Stretch">
+							<items>
+								<core:HTML content="&lt;h2&gt;1&lt;/h2&gt;">
+									<core:layoutData>
+										<FlexItemData growFactor="2" styleClass="item1"/>
+									</core:layoutData>
+								</core:HTML>
+								<core:HTML content="&lt;h2&gt;2&lt;/h2&gt;">
+									<core:layoutData>
+										<FlexItemData growFactor="3" styleClass="item2"/>
+									</core:layoutData>
+								</core:HTML>
+								<VBox fitContainer="true">
+									<layoutData>
+										<FlexItemData growFactor="7"/>
+									</layoutData>
+									<items>
+										<core:HTML content="&lt;h2&gt;3&lt;/h2&gt;">
+											<core:layoutData>
+												<FlexItemData growFactor="5" styleClass="item3"/>
+											</core:layoutData>
+										</core:HTML>
+										<HBox fitContainer="true" alignItems="Stretch">
+											<layoutData>
+												<FlexItemData growFactor="3"/>
+											</layoutData>
+											<items>
+												<core:HTML content="&lt;h2&gt;4&lt;/h2&gt;">
+													<core:layoutData>
+														<FlexItemData growFactor="1" styleClass="item4"/>
+													</core:layoutData>
+												</core:HTML>
+												<core:HTML content="&lt;h2&gt;5&lt;/h2&gt;">
+													<core:layoutData>
+														<FlexItemData growFactor="1" styleClass="item5"/>
+													</core:layoutData>
+												</core:HTML>
+											</items>
+										</HBox>
+									</items>
+								</VBox>
+								<core:HTML content="&lt;h2&gt;6&lt;/h2&gt;">
+									<core:layoutData>
+										<FlexItemData growFactor="5" styleClass="item6"/>
+									</core:layoutData>
+								</core:HTML>
+							</items>
+						</HBox>
+					</Panel>
 					
 					<!-- Use the growFactor property to adjust the size -->
 					
@@ -177,7 +177,7 @@
 						</headerToolbar>
 						<FlexBox alignItems="Start">
 							<items>
-								<Button text="1" width="50px" type="Emphasized" class="sapUiSmallMarginEnd">
+								<Button text="1" width="50%" type="Emphasized" class="sapUiSmallMarginEnd">
 									<layoutData>
 										<FlexItemData growFactor="1"/>
 									</layoutData>
@@ -187,7 +187,7 @@
 										<FlexItemData growFactor="1"/>
 									</layoutData>
 								</Button>
-								<Button text="3" width="150px" type="Accept">
+								<Button text="3" width="300px" type="Accept">
 									<layoutData>
 										<FlexItemData growFactor="1"/>
 									</layoutData>

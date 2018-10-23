@@ -13,7 +13,7 @@
 						<MessageStrip class="sapUiTinyMarginBottom sapUiSmallMarginBegin"
 							text="Each child should take 3 columns on XL and L screens, 6 columns on M screens and 12 columns on S screens." type="Information"
 							showIcon="true"></MessageStrip>
-						<l:Grid containerQuery="true" defaultSpan="XL3 L3 M6 S12" class="sapUiSmallMarginTop">
+						<l:Grid  defaultSpan="XL3 L3 M6 S12" class="sapUiSmallMarginTop">
 							<html:div class="item1"></html:div>
 							<html:div class="item2"></html:div>
 							<html:div class="item3"></html:div>
@@ -32,10 +32,10 @@
 						<l:Grid defaultIndent="L1 M4 S6" defaultSpan="L6 M6 S6">
 							<html:div class="item1"></html:div>
 						</l:Grid>
-						<!--<l:Grid containerQuery="true" defaultIndent="L1 M3" defaultSpan="L3 M3 S3">-->
-						<!--	<html:div class="item2"></html:div>-->
-						<!--	<html:div class="item2"></html:div>-->
-						<!--</l:Grid>-->
+						<l:Grid  defaultIndent="L1 M3" defaultSpan="L3 M3 S3">
+							<html:div class="item2"></html:div>
+							<html:div class="item2"></html:div>
+						</l:Grid>
 					</Panel>
 					<Panel>
 						<headerToolbar>
@@ -73,7 +73,7 @@
 						</headerToolbar>
 						<MessageStrip class="sapUiTinyMarginBottom sapUiSmallMarginBegin" text="The grid's width will be 65% of the parent container."
 							type="Information" showIcon="true"></MessageStrip>
-						<l:Grid containerQuery="true" width="65%">
+						<l:Grid  width="65%">
 							<html:div class="item1"></html:div>
 							<html:div class="item2"></html:div>
 							<html:div class="item3"></html:div>
@@ -88,7 +88,7 @@
 						</headerToolbar>
 						<MessageStrip class="sapUiTinyMarginBottom sapUiSmallMarginBegin" text=" The grid will be in the center of the screen." type="Information"
 							showIcon="true"></MessageStrip>
-						<l:Grid containerQuery="true" position="Center" width="65%">
+						<l:Grid  position="Center" width="65%">
 							<html:div class="item1"></html:div>
 							<html:div class="item2"></html:div>
 							<html:div class="item3"></html:div>
@@ -103,7 +103,7 @@
 						</headerToolbar>
 						<MessageStrip class="sapUiTinyMarginBottom sapUiSmallMarginBegin"
 							text="The second child will always be 6 columns wide, regardless of the screen size." type="Information" showIcon="true"></MessageStrip>
-						<l:Grid containerQuery="true">
+						<l:Grid>
 							<core:HTML content="&lt;div class=&quot;item1&quot;&gt;&lt;/div&gt;"/>
 							<core:HTML content="&lt;div class=&quot;item4&quot;&gt;&lt;/div&gt;">
 								<core:layoutData>
@@ -120,7 +120,7 @@
 						</headerToolbar>
 						<MessageStrip class="sapUiTinyMarginBottom sapUiSmallMarginBegin"
 							text="The second child will cause a linebreak, regardless of other children's width." type="Information" showIcon="true"></MessageStrip>
-						<l:Grid containerQuery="true">
+						<l:Grid>
 							<core:HTML content="&lt;div class=&quot;item1&quot;&gt;&lt;/div&gt;"/>
 							<core:HTML content="&lt;div class=&quot;item3&quot;&gt;&lt;/div&gt;">
 								<core:layoutData>
@@ -138,7 +138,7 @@
 						</headerToolbar>
 						<MessageStrip class="sapUiTinyMarginBottom sapUiSmallMarginBegin" text=" The middle child will cause a linebreak only on M screens."
 							type="Information" showIcon="true"></MessageStrip>
-						<l:Grid containerQuery="true" defaultSpan="XL4 L4 M4 S4">
+						<l:Grid  defaultSpan="XL4 L4 M4 S4">
 							<core:HTML content="&lt;div class=&quot;item1&quot;&gt;&lt;/div&gt;"/>
 							<core:HTML content="&lt;div class=&quot;item3&quot;&gt;&lt;/div&gt;">
 								<core:layoutData>

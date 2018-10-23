@@ -6,18 +6,19 @@
 		<f:SimpleForm 
 			layout="ResponsiveGridLayout"
 			title="Address"
-			labelSpanXL="3"
-			labelSpanL="3"
-			labelSpanM="3"
-			labelSpanS="12"
+			labelSpanXL="5"
+			labelSpanL="5"
+			labelSpanM="2"
+			labelSpanS="4"
 			emptySpanXL="4"
-			emptySpanL="4"
-			emptySpanM="4"
+			emptySpanL="1"
+			emptySpanM="1"
 			emptySpanS="0"
 			columnsXL="1"
 			columnsL="1"
 			columnsM="1" >
 			<f:content>
+				<core:Title text="Office" />
 				<Label text="Name" />
 				<Text id="nameText" text="Will" />
 				<Label text="Street/No." />
@@ -26,7 +27,26 @@
 				<Text text="31415 Maintown" />
 				<Label text="Country" />
 				<Text id="countryText" text="China" />
+					<Label text="Country" />
+				<Text text="China" />
+					<Label text="Country" />
+				<Text text="China" />
+				
+					<core:Title text="Office" />
+				<Label text="Name" />
+				<Text  text="Will" />
+				<Label text="Street/No." />
+				<Text text="Main St 1618" />
+				<Label text="ZIP Code/City" />
+				<Text text="31415 Maintown" />
+				<Label text="Country" />
+				<Text  text="China" />
+					<Label text="Country" />
+				<Text text="China" />
+					<Label text="Country" />
+				<Text text="China" />
 			</f:content>
+			
 		</f:SimpleForm>
 	</VBox>
 				</content>
