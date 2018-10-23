@@ -3,7 +3,7 @@
 	<Page title="{i18n>title}">
 				<content>
 					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="FixFlex"
-						subheader="" press="onPress2">
+						subheader="" press="navToFixFlex">
 						<tileContent>
 							<TileContent footer="">
 								<content>
@@ -13,7 +13,7 @@
 						</tileContent>
 					</GenericTile>
 					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="FlexBox"
-						subheader="" press="onPress1">
+						subheader="" press="navToFlexBox">
 						<tileContent>
 							<TileContent footer="">
 								<content>
@@ -23,7 +23,7 @@
 						</tileContent>
 					</GenericTile>
 					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Grid"
-						subheader="" press="onPress3">
+						subheader="" press="navToGrid">
 						<tileContent>
 							<TileContent footer="">
 								<content>
@@ -33,7 +33,7 @@
 						</tileContent>
 					</GenericTile>
 					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="SimpleForm"
-						subheader="" press="onPress4">
+						subheader="" press="navToSimpleForm">
 						<tileContent>
 							<TileContent footer="">
 								<content>
@@ -43,7 +43,7 @@
 						</tileContent>
 					</GenericTile>
 						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Document"
-						subheader="" press="onPress5">
+						subheader="" press="navToDoc">
 						<tileContent>
 							<TileContent footer="">
 								<content>
